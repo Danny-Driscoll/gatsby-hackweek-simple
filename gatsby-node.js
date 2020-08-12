@@ -6,7 +6,7 @@ exports.createPages = async ({ actions: { createPage } }) => {
   // Create a page that lists all Pokémon.
   createPage({
     path: `/`,
-    component: require.resolve('./src/templates/index.js'),
+    component: require.resolve('./src/index.js'),
     context: { datafile }
   });
 };
