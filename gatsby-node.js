@@ -1,7 +1,7 @@
 const axios = require('axios');
 
 exports.createPages = async ({ actions: { createPage } }) => {
-  const { data: datafile } = await axios.get('https://cdn.optimizely.com/datafiles/Ua55wZQEBEkSHLPreu6HYt.json');
+  const { data: datafile } = await axios.get('https://cdn.optimizely.com/datafiles/KaTLsezg4ozh4QWugdqFh.json');
 
   // Create a page that lists all Pokémon.
   createPage({
