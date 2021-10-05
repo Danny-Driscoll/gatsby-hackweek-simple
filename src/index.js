@@ -25,6 +25,7 @@ export default ({ pageContext: { datafile } }) => {
         <pre>Status: { JSON.stringify(datafile.experiments[0].status, null, 2) }</pre>
   <pre>Datafile: { JSON.stringify(datafile, null, 2) }</pre>
       </div>
+      <script>window.datafile=datafile;</script>
     </OptimizelyProvider>
   );
 };
